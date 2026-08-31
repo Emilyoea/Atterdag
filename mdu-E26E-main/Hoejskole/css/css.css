@@ -1,0 +1,49 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Remove whitespace on top of certain browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Shift + Option: 8/9 = {} */
+
+body {
+  Background-color: #fbe0c5;
+}
+
+
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  Text-align: center;
+}
+
+p{
+  padding: 23px;
+}
+
+
+
+/* Use your variables on elements along these lines */
+/*
+:root {
+  --contrast: lime;
+  --backgr: #000;
+}
+
+--- You can use the variables like this ---
+
+ main {
+   color: var(--contrast);
+   background-color: var(--backgr);
+ }
+*/
