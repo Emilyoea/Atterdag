@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --tekst: #7a1616;
+  --background: #fbe0c5;
+}
+
 /* Shift + Option: 8/9 = {} */
 
 body {
@@ -31,7 +36,13 @@ p{
   padding: 23px;
 }
 
-
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
 
 /* Use your variables on elements along these lines */
 /*
